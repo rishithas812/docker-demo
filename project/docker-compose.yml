@@ -1,0 +1,20 @@
+services:
+
+  web:
+    build: .
+
+    ports:
+      - "8080:5000"
+
+    environment:
+      APP_NAME: "Docker Compose App"
+
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: demo_db
