@@ -1,0 +1,28 @@
+# Docker Learning Journey
+
+This repository documents my learning and hands-on practice with Docker.
+
+## Objectives
+
+- Create a custom Docker image using Dockerfile
+- Run containers locally
+- Expose application ports
+- Mount local volumes
+- Use environment variables
+- Create multi-container applications using Docker Compose
+
+## Technologies Used
+
+- Docker
+- Docker Compose
+- Python
+- Flask
+- MySQL
+
+## Project Structure
+
+```text
+docker-learning/
+├── notes/
+├── project/
+└── screenshots/
